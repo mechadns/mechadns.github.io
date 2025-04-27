@@ -1,0 +1,61 @@
+---
+import { Image } from 'astro:assets';
+import siteConfig from '../data/site-config';
+import profileImage from '../images/profile.png';
+---
+
+<header class="w-full max-w-3xl mx-auto mb-12 sm:mb-16 text-center">
+  <div class="flex justify-center">
+    <a href="/">
+      <Image src={profileImage} height="200" alt="Ivy's profile image" />
+    </a>
+  </div>
+  <div class="m-8">
+    <h1 class="text-3xl leading-tight font-serif font-semibold sm:text-5xl sm:leading-tight">
+      <span id="typewriter"></span>
+    </h1>
+    <h2 class="prose prose-dante sm:prose-lg mt-4">I Leverage AI for Insights that Speak to You and for You.</h2>
+  </div>
+</header>
+
+<script>
+  const typewriterElement = document.getElementById('typewriter');
+  const messages = [" Hello, I am Dennis Mecha ", " Jambo, mimi ni Dennis Mecha ", " Bonjour, je suis Dennis Mecha ", " Hola, soy Dennis Mecha ", " Hallo, ich bin Dennis Mecha "];
+  let messageIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function type() {
+    const currentMessage = messages[messageIndex];
+    const displayedText = isDeleting
+      ? currentMessage.substring(0, charIndex--)
+      : currentMessage.substring(0, charIndex++);
+
+    // Preserve spaces by using `white-space: pre` in CSS
+    typewriterElement.textContent = displayedText;
+
+    if (!isDeleting && charIndex === currentMessage.length) {
+      // Pause for 1 second after typing the full message
+      isDeleting = true;
+      setTimeout(type, 1000);
+    } else if (isDeleting && charIndex === 0) {
+      // Move to the next message and reset
+      isDeleting = false;
+      messageIndex = (messageIndex + 1) % messages.length;
+      setTimeout(type, 500); // Pause before typing the next message
+    } else {
+      // Continue typing or deleting
+      const delay = isDeleting ? 100 : 100; // Uniform speed for typing and deleting
+      setTimeout(type, delay);
+    }
+  }
+
+  type();
+</script>
+
+<style>
+  #typewriter {
+    display: inline-block;
+    white-space: pre; /* Preserve spaces and prevent collapsing */
+  }
+</style>

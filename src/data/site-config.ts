@@ -1,0 +1,90 @@
+export type Image = {
+    src: string;
+    alt?: string;
+    caption?: string;
+};
+
+export type Link = {
+    text: string;
+    href: string;
+};
+
+export type Hero = {
+    title?: string;
+    text?: string;
+    image?: Image;
+    actions?: Link[];
+};
+
+export type Subscribe = {
+    title?: string;
+    text?: string;
+    formUrl: string;
+};
+
+export type SiteConfig = {
+    logo?: Image;
+    title: string;
+    subtitle?: string;
+    description: string;
+    image?: Image;
+    headerNavLinks?: Link[];
+    footerNavLinks?: Link[];
+    socialLinks?: Link[];
+    hero?: Hero;
+    subscribe?: Subscribe;
+    postsPerPage?: number;
+    projectsPerPage?: number;
+};
+
+const siteConfig: SiteConfig = {
+    title: 'Mecha\'s portfolio',
+    subtitle: 'Portfolio & Blog',
+    description: 'Mecha\'s projects and writings',
+    image: {
+        src: '/preview.png',
+        alt: 'Mecha\'s portfolio and blog website screenshot'
+    },
+    headerNavLinks: [
+        {
+            text: 'Home',
+            href: '/'
+        },
+        {
+            text: 'Projects',
+            href: '/projects'
+        },
+        {
+            text: 'Blog',
+            href: '/blog'
+        },
+        {
+            text: 'About',
+            href: '/about'
+        }
+    ],
+    footerNavLinks: [
+    ],
+    socialLinks: [
+        {
+            text: 'RSS',
+            href: '/rss.xml'
+        },
+        {
+            text: 'GitHub',
+            href: 'https://github.com/mechadns'
+        },
+        {
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/dennismecha'
+        },
+        {
+            text: 'View My Resume',
+            href: 'https://drive.google.com/file/d/1NR-Q7uUDqaN-6i1ZpDTJegcrAzmsW8z_/view?usp=sharing'
+        }
+    ],
+    postsPerPage: 10,
+    projectsPerPage: 10 
+};
+
+export default siteConfig;
