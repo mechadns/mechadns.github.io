@@ -8,7 +8,7 @@ tags:
   - Python
 seo:
   image:
-    src: 'src/images/portfolio-1.jpg'
+    src: /portfolio-1.jpg
     alt: Python Web Scrape
 isFeatured: true
 ---

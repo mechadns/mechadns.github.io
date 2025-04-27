@@ -9,7 +9,7 @@ tags:
   - Data Visualization
 seo:
   image:
-    src: 'src/images/portfolio-2.jpg'
+    src: /portfolio-2.jpg
     alt: Power BI - Customer Churn Analysis Dashboard
 isFeatured: true
 ---

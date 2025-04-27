@@ -9,7 +9,7 @@ tags:
   - Seaborn
 seo:
   image:
-    src: 'src/images/absolute-image.jpg'
+    src: /absolute-image.jpg
     alt: Customer Churn Analysis
 isFeatured: true
 ---
