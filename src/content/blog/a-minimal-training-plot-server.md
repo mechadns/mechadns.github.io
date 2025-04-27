@@ -1,6 +1,7 @@
 ---
-publishDate: "2017-03-04T16:15:05-05:00"
-title: a minimal training plot server
+publishDate: "2024-03-04T16:15:05-05:00"
+excerpt: Training deep learning models without built-in visualization tools can be challenging. In this article, I show how to create a lightweight, real-time dashboard in Python to monitor metrics like loss and accuracy during training. Using asyncio, aiohttp, and matplotlib, you can easily track your model's performance live — even when using flexible frameworks like PyTorch.
+title: A Minimal Training Plot Server
 ---
 
 Training a deep convolutional neural network (CNN) can be a lengthy process.
