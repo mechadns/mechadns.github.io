@@ -38,11 +38,11 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Mecha\'s portfolio',
+    title: 'Dennis Mecha',
     subtitle: 'Portfolio & Blog',
-    description: 'Mecha\'s projects and writings',
+    description: 'Mecha\'s projects and occasional blog posts on AI and ML',
     image: {
-        src: '/preview.png',
+        src: '/absolute-banner.jpg',
         alt: 'Mecha\'s portfolio and blog website screenshot'
     },
     headerNavLinks: [
