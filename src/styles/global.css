@@ -54,3 +54,54 @@
     text-decoration-style: dotted;
     text-underline-offset: 2px;
 }
+
+#typewriter {
+    display: inline-block;
+    white-space: pre; /* Preserve spaces and prevent collapsing */
+    font-size: 1.25rem; /* Smaller font size for mobile screens */
+    line-height: 1.5; /* Adjust line height for better readability */
+    text-align: center; /* Center-align the text */
+    overflow: hidden; /* Prevent text overflow */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+    word-break: break-word; /* Break long words if necessary */
+}
+
+h1 {
+    font-size: 1.25rem; /* Smaller font size for mobile screens */
+    line-height: 1.5; /* Adjust line height for better readability */
+    text-align: center; /* Center-align the text */
+    margin: 0 auto; /* Center the h1 element */
+    max-width: 100%; /* Ensure it fits within the viewport */
+    overflow: visible; /* Ensure the text is fully visible */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /* Add padding to ensure spacing */
+    text-align: center; /* Center-align all content */
+    width: 100%; /* Ensure the header takes up the full width */
+    overflow: visible; /* Prevent cropping of content */
+}
+
+@media (min-width: 640px) {
+    h1 {
+        font-size: 1.75rem; /* Slightly larger font size for medium screens */
+    }
+
+    #typewriter {
+        font-size: 1.5rem; /* Slightly larger font size for medium screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 2.25rem; /* Larger font size for larger screens */
+    }
+
+    #typewriter {
+        font-size: 2rem; /* Larger font size for larger screens */
+    }
+}
