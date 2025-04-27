@@ -2,7 +2,7 @@
 title: Dennis Mecha
 seo:
   title: Dennis Mecha bio
-  description: Data Enthusiast, Economist, Statistician
+  description: Data Scientist, Economist, Statistician
   image:
     src: '/about-me.jpg'
     alt: Photo of Mecha
@@ -26,6 +26,18 @@ I enjoy solving hard technical challenges and enabling others to do the same. My
 ✓ Be a mentor, help others.
 
 
-## Get in Touch
+## <div class="text-center">Get in Touch</div>
 
 Are you looking to build with AI? I'd love to hear from you! Feel free to [reach out](https://calendar.app.google/kjCUYWSd7h1EhJqW9) for collaboration, consultation, or just a friendly chat about all things AI.
+
+<div class="flex flex-wrap justify-center gap-4 mt-6">
+  <a href="https://github.com/mechadns" target="_blank" rel="noopener noreferrer" class="btn">
+    GitHub
+  </a>
+  <a href="https://www.linkedin.com/in/dennismecha" target="_blank" rel="noopener noreferrer" class="btn">
+    LinkedIn
+  </a>
+  <a href="https://drive.google.com/file/d/1NR-Q7uUDqaN-6i1ZpDTJegcrAzmsW8z_/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn">
+    View My Resume
+  </a>
+</div>

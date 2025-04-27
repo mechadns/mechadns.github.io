@@ -86,6 +86,49 @@ header {
     overflow: visible; /* Prevent cropping of content */
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem; /* Add padding for spacing */
+    gap: 1rem; /* Add spacing between elements */
+    border-top: 2px dotted var(--color-border-main); /* Add a dotted line above the footer */
+    width: 100%; /* Ensure the footer spans the full width */
+    max-width: 1200px; /* Match the width of the page content */
+    margin-left: auto; /* Center the footer horizontally */
+    margin-right: auto; /* Center the footer horizontally */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+footer .flex {
+    justify-content: center; /* Center-align the links */
+    gap: 1rem; /* Add spacing between links */
+}
+
+footer .border-main {
+    display: flex;
+    justify-content: space-between; /* Space out the RSS link and copyright */
+    align-items: center; /* Align them vertically */
+    width: 100%; /* Ensure it spans the full width of the footer */
+    max-width: 1200px; /* Match the width of the page content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 1rem 0; /* Add vertical padding */
+}
+
+footer p {
+    font-size: 0.875rem; /* Ensure the copyright text is readable */
+    color: var(--color-text-main); /* Use the main text color */
+    margin: 0; /* Remove extra margin */
+}
+
+.text-center {
+    justify-content: center;
+    text-align: center;
+}
+
+
 @media (min-width: 640px) {
     h1 {
         font-size: 1.75rem; /* Slightly larger font size for medium screens */
@@ -93,6 +136,20 @@ header {
 
     #typewriter {
         font-size: 1.5rem; /* Slightly larger font size for medium screens */
+    }
+
+    footer {
+        flex-direction: row; /* Align links and copyright side by side */
+        justify-content: space-between; /* Space out links and copyright */
+        text-align: left; /* Align text to the left */
+    }
+
+    footer .flex {
+        justify-content: flex-start; /* Align links to the left */
+    }
+
+    footer p {
+        text-align: right; /* Align copyright to the right */
     }
 }
 
