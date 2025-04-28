@@ -53,7 +53,8 @@ In this project, I created a simple Python script designed to collect **publicly
 - Key Libraries:
   - `requests`
   - `beautifulsoup4`
-  - `pandas`
+  - `gspread`
+  - `oauth2client`
   - `re` (regular expressions)
 
 Install the required packages using:
