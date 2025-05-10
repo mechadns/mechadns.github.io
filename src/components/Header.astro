@@ -18,39 +18,52 @@ import profileImage from '../images/profile.png';
   </div>
 </header>
 
-<script>
-  const typewriterElement = document.getElementById('typewriter');
-  const messages = [" Hello, I am Dennis Mecha ", " Jambo, mimi ni Dennis Mecha ", " Bonjour, je suis Dennis Mecha ", " Hola, soy Dennis Mecha ", " Hallo, ich bin Dennis Mecha "];
-  let messageIndex = 0;
-  let charIndex = 0;
-  let isDeleting = false;
+<script client:load>
+  function initializeTypewriter() {
+    const typewriterElement = document.getElementById('typewriter');
+    if (!typewriterElement) return; // Ensure the element exists
 
-  function type() {
-    const currentMessage = messages[messageIndex];
-    const displayedText = isDeleting
-      ? currentMessage.substring(0, charIndex--)
-      : currentMessage.substring(0, charIndex++);
+    const messages = [
+      " Hello, I am Dennis Mecha ",
+      " Jambo, mimi ni Dennis Mecha ",
+      " Bonjour, je suis Dennis Mecha ",
+      " Hola, soy Dennis Mecha ",
+      " Hallo, ich bin Dennis Mecha "
+    ];
+    let messageIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
 
-    // Preserve spaces by using `white-space: pre` in CSS
-    typewriterElement.textContent = displayedText;
+    function type() {
+      const currentMessage = messages[messageIndex];
+      const displayedText = isDeleting
+        ? currentMessage.substring(0, charIndex--)
+        : currentMessage.substring(0, charIndex++);
 
-    if (!isDeleting && charIndex === currentMessage.length) {
-      // Pause for 1 second after typing the full message
-      isDeleting = true;
-      setTimeout(type, 1000);
-    } else if (isDeleting && charIndex === 0) {
-      // Move to the next message and reset
-      isDeleting = false;
-      messageIndex = (messageIndex + 1) % messages.length;
-      setTimeout(type, 500); // Pause before typing the next message
-    } else {
-      // Continue typing or deleting
-      const delay = isDeleting ? 100 : 100; // Uniform speed for typing and deleting
-      setTimeout(type, delay);
+      // Preserve spaces by using `white-space: pre` in CSS
+      typewriterElement.textContent = displayedText;
+
+      if (!isDeleting && charIndex === currentMessage.length) {
+        // Pause for 1 second after typing the full message
+        isDeleting = true;
+        setTimeout(type, 1000);
+      } else if (isDeleting && charIndex === 0) {
+        // Move to the next message and reset
+        isDeleting = false;
+        messageIndex = (messageIndex + 1) % messages.length;
+        setTimeout(type, 500); // Pause before typing the next message
+      } else {
+        // Continue typing or deleting
+        const delay = isDeleting ? 100 : 100; // Uniform speed for typing and deleting
+        setTimeout(type, delay);
+      }
     }
+
+    type();
   }
 
-  type();
+  // Initialize the typewriter effect
+  initializeTypewriter();
 </script>
 
 <style>
