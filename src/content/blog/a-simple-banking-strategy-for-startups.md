@@ -1,6 +1,6 @@
 ---
-publishDate: "2025-07-24T12:00:00-00:00"
-excerpt: AI agents are more than chatbots. They’re digital coworkers that can plan, decide, and take action. Powered by large language models, they’re helping people automate tasks, save time, and work smarter. As they become part of everyday tools, knowing how to use and build with them is quickly becoming a must-have skill.
+publishDate: "2025-06-15T12:00:00-00:00"
+excerpt: Forget chatbots. AI agents can browse, plan, and act on your behalf. Here's why they might be the future of how we work.
 title: "The Rise of AI Agents: Why They're More Than Just Hype"
 ---
 
