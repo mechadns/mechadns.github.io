@@ -2,6 +2,17 @@
 publishDate: "2025-06-15T12:00:00-00:00"
 excerpt: Forget chatbots. AI agents can browse, plan, and act on your behalf. Here's why they might be the future of how we work.
 title: "The Rise of AI Agents: Why They're More Than Just Hype"
+tags:
+  - AI agents
+  - artificial intelligence
+  - machine learning
+  - automation
+  - developer tools
+  - LLMs
+  - LangChain
+  - OpenAI
+  - future of work
+  - agentic workflows
 ---
 
 We’re in the age of AI agents. These aren’t just chatbots that give canned answers. They think through tasks, make decisions, and get things done. From booking travel to managing whole workflows, they’re already changing how we work.
