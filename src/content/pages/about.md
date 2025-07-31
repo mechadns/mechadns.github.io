@@ -21,7 +21,7 @@ I enjoy tackling complex technical problems and enabling others to do the same. 
 
 ✓ Conduct AI research as part of my postgraduate studies.
 
-✓ Contribute to open-source machine learning projects; I am currently contributing to an Omdena Local Chapter Project.
+✓ Contribute to open-source machine learning projects.
 
 ✓ Launch an independent consulting practice specializing in data science solutions.
 
