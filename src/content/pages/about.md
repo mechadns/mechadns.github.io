@@ -30,7 +30,7 @@ I enjoy tackling complex technical problems and enabling others to do the same. 
 
 ## <div class="text-center">Get in Touch</div>
 
-Are you looking to build with AI? I'd love to hear from you! Feel free to [reach out](https://calendar.app.google/kjCUYWSd7h1EhJqW9) for collaboration, consultation, or just a friendly chat about all things data.
+Are you looking to build with AI? I'd love to hear from you! Feel free to [reach out](https://docs.google.com/forms/d/e/1FAIpQLSc3Be9gJJLY87pT4CMmMjqthGrw0cEt4sSmFH65wdAZkWSnXw/viewform) for collaboration, consultation, or just a friendly chat about all things data.
 
 <div class="flex flex-wrap justify-center gap-4 mt-6">
   <a href="https://github.com/mechadns" target="_blank" rel="noopener noreferrer" class="btn">
