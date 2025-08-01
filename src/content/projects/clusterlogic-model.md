@@ -14,7 +14,7 @@ tags:
 
 seo:
   image:
-    src: /portfolio-5.jpg
+    src: /portfolio-clusterlogic.jpg
     alt: Loan Amount Prediction
 isFeatured: true
 ---

@@ -16,7 +16,7 @@ tags:
   - Support Vector Classifier (SVC)
 seo:
   image:
-    src: /portfolio-5.jpg
+    src: /portfolio-loanprediction.jpg
     alt: Loan Amount Prediction
 isFeatured: true
 ---
