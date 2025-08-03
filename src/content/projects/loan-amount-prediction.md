@@ -1,7 +1,7 @@
 ---
 title: Loan Amount Prediction
 description: The Loan Amount Prediction project aims to predict whether a loan will be approved based on various features related to the applicant's personal and financial information, by using various Machine Learning algorithms we can analyze and model the data to make accurate predictions.
-publishDate: 2025-07-31
+publishDate: 2025-08-10
 tags:
   - Python
   - Machine Learning
