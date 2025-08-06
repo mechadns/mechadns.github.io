@@ -20,7 +20,6 @@ isFeatured: true
 The GitHub repository for this project can be viewed <a href="https://github.com/mechadns/Telco-churn-prediction-main" target="_blank">here</a>.
 </p>
 
-# Telecom Customer Churn Prediction
 
 This project applies supervised machine learning techniques to analyze and predict customer churn in the telecom sector. Using the [Telco Customer Churn dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), the goal was to identify key drivers of churn and build models capable of predicting whether a customer is likely to leave.
 

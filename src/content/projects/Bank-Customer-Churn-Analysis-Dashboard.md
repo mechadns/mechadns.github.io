@@ -17,7 +17,6 @@ isFeatured: true
 The files to this project are stored on <a href="https://github.com/mechadns/Telco-churn-prediction-main" target="_blank">this</a> GitHub repository.
 </p>
 
-# Power BI - Customer Churn Analysis Dashboard Project
 
 This Power BI project provides interactive dashboards and advanced visual analytics for customer churn data. It helps businesses identify key trends, understand customer behavior, and make data-driven decisions.
 

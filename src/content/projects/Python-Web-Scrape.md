@@ -19,7 +19,6 @@ isFeatured: true
 The GitHub repository for this project can be viewed <a href="https://github.com/mechadns/python_phone_number_web_scrape" target="_blank">here</a>.
 </p>
 
-# Phone Number Scraper
 
 In this project, I created a simple Python script designed to collect **publicly available** phone numbers from **Google Search** results. The tool automates queries, extracts visible phone numbers, and populates them into a structured CSV file for easy enrichment and further use.
 
