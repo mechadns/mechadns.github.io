@@ -13,7 +13,7 @@ seo:
 **Hi there!**
 
 I am Dennis Mecha, a Data Scientist working towards contributing to enhancing human potential with Artificial Intelligence.
-I am currently pursuing a Master’s Degree in Data Science at the University of East London, where I focus on applying machine learning and AI techniques to real-world challenges in quantitative finance, fraud detection and optimization problems.
+I am currently pursuing a Master’s Degree in Data Science at the University of East London. I focus on applying machine learning and AI techniques to real-world challenges in quantitative finance, fraud detection and optimization problems.
 
 I enjoy tackling complex technical problems and enabling others to do the same. My current goals are to:
 
