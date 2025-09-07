@@ -39,7 +39,7 @@ Are you looking to build with AI? I'd love to hear from you! Feel free to [reach
   <a href="https://www.linkedin.com/in/dennismecha" target="_blank" rel="noopener noreferrer" class="btn">
     LinkedIn
   </a>
-  <a href="https://drive.google.com/file/d/1kfEQTTNelkWqOCd1KfuoKl_yJdFoo_2I/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn">
+  <a href="https://drive.google.com/file/d/1lGnCSDyRx1JEuv5lVMR5OgsKhQtId8SH/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn">
     View My Resume
   </a>
 </div>
