@@ -39,6 +39,9 @@ Are you looking to build with AI? I'd love to hear from you! Feel free to [reach
   <a href="https://www.linkedin.com/in/dennismecha" target="_blank" rel="noopener noreferrer" class="btn">
     LinkedIn
   </a>
+  <a href="https://www.upwork.com/freelancers/~01bc689bb3dc6aab6b" target="_blank" rel="noopener noreferrer" class="btn">
+    Upwork
+  </a>
   <a href="https://drive.google.com/file/d/18ptA9A9cGfoUU1KaQVMMtgaYG7UTNbdi/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn">
     View My Resume
   </a>
